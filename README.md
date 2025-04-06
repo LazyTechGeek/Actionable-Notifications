@@ -15,10 +15,7 @@ https://github.com/keatontaylor/alexa-actions/tree/master/skill-package/interact
 https://github.com/keatontaylor/alexa-actions/releases
 
 
-Required Code:
-
-🧾 activate_alexa_actionable_notification Script Guide:
-https://github.com/keatontaylor/alexa-actions/wiki/Home-Assistant-Talking-to-Alexa-(The-Script)
+# Required Code: (input_text & activate_alexa_actionable_notification)
 
 # input_text
 Make sure to install it i.e. into /config/configuration.yaml (or split location)
@@ -71,8 +68,9 @@ Example Code for automations / Scripts demonstrated in this video
 # Mobile Actionable notifications
 
 
-Name: Mobile-Notification_Cookie Jar Breach - (if away)
-Description: Triggers notification when cookie jar opened and dave is not home
+Name: Mobile-Notification_Cookie Jar Breach - (if away)  
+Description: Triggers notification when cookie jar opened and dave is not home  
+(save as automation)
 
 ```
 alias: Mobile-Notification_Cookie Jar Breach - (if away)
@@ -102,8 +100,8 @@ mode: single
 
 ```
 
-Name: Mobile-Notification_Cookie Jar Breach - (if away)
-Description: Triggers notification when cookie jar opened and dave is not home
+Name: Mobile-Notification_Cookie Jar Breach - (if away)  
+Description: Triggers notification when cookie jar opened and dave is not home  
 (Save as automations)
 ```
 alias: Handle Cookie Jar Mobile Response
@@ -147,9 +145,9 @@ actions:
 mode: single
 ```
 
-Name: Cookie Jar Mobile Response - Call Script
-Description: Triggers response when cookie jar opened and dave is not home
-(Save as automations)
+Name: Cookie Jar Mobile Response - Call Script  
+Description: Triggers response when cookie jar opened and dave is not home  
+(Save as automation)
 
 ```
 alias: Cookie Jar Mobile Response - Call Script
@@ -183,8 +181,8 @@ actions:
 mode: single
 ```
 
-Name: Flash Lights Cookie Defense
-Description: script to run sequence from response
+Name: Flash Lights Cookie Defense  
+Description: script to run sequence from response  
 (Save as script)
 
 ```
@@ -209,8 +207,8 @@ description: ""
 
 # Alexa Actionable notifications
 
-Name: Alexa-Notification_Cookie Jar Breach
-Description: Triggers notification when cookie jar opened and dave is home
+Name: Alexa-Notification_Cookie Jar Breach  
+Description: Triggers notification when cookie jar opened and dave is home  
 (Save as automation)
 ```
 
@@ -235,8 +233,9 @@ actions:
 mode: single
 ```
 
-Name: Alexa-Response_Cookie Jar Breach
-Description: Triggers response when cookie jar opened and dave is home
+Name: Alexa-Response_Cookie Jar Breach  
+Description: Triggers response when cookie jar opened and dave is home  
+(Save as automation)
 
 ```
 alias: Alexa-Response_Cookie Jar Breach
@@ -268,8 +267,9 @@ actions:
 mode: single
 ```
 
-Name: Alexa-Response_Cookie Jar Breach (calls script)
-Description: Triggers response when cookie jar opened and dave is home and calls script to run the sequences
+Name: Alexa-Response_Cookie Jar Breach (calls script)  
+Description: Triggers response when cookie jar opened and dave is home and calls script to run the sequences  
+(Save as automation)
 
 ```
 alias: Alexa-Response_Cookie Jar Breach (calls script)
@@ -287,8 +287,9 @@ actions:
 mode: single
 ```
 
-Name: Alexa-Response_Cookie Jar Breach (calls script)
-Description: Triggers response when cookie jar opened and dave is home but calls script to run the sequences
+Name: Alexa-Response_Cookie Jar Breach (calls script)  
+Description: script to run sequence from response  
+(Save as script)
 ```
 alias: Alexa-Response_Cookie Jar Breach
 description: Handles Alexa response to cookie jar breach
