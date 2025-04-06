@@ -2,7 +2,7 @@ Actionable Notifications
 
 Link to YouTube Video 📺 Watch the video here: https://youtu.be/Nlc3sahKBTc
 
-The following scripts referenced in the video as as follows:
+The following scripts and links referenced in the video as as follows:
 
 Links:
 💻 Alexa Developer Console:
