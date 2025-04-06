@@ -1,6 +1,6 @@
 Actionable Notifications
 
-Link to YouTube Video 📺 Watch the video here:
+Link to YouTube Video 📺 Watch the video here: https://youtu.be/Nlc3sahKBTc
 
 The following scripts referenced in the video as as follows:
 
